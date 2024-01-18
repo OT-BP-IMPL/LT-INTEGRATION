@@ -107,7 +107,7 @@ public class TestNGTodo1 {
         // Assert.assertEquals("Get Taste of Lambda and Stick to It", spanText);
         // Status = "passed";
         // Thread.sleep(150);
- driver.get("http://122.160.30.218:16680/login");
+ driver.get("https://app-beta.lambdatest.com/viewer/TES101605101705569901938629");
 
         driver.manage().window().maximize();
         Thread.sleep(1000);
