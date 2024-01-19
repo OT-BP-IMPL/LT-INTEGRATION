@@ -85,7 +85,7 @@ Thread.sleep(4000);
     ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
     driver.quit();
     // close tunnel
-    // t.stop();
+    t.stop();
   }
 }
 // mvn clean test -DsuiteXmlFile=MavenSingle.xml
